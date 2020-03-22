@@ -1,0 +1,11 @@
+[Unit]
+Description=TI IPC Daemon
+After=systemd-modules-load.service
+ConditionPathExists=/sys/devices/platform/44000000.ocp/41000000.dsp/
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/lad_dra7xx -g -l lad.txt
+
+[Install]
+WantedBy=basic.target

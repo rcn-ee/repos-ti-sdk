@@ -1,0 +1,4 @@
+usr/bin/*
+usr/lib/lib*.so.*
+debian/omap_remoteproc.conf /etc/modprobe.d
+debian/ti-ipc-dra7xx.service /lib/systemd/system/

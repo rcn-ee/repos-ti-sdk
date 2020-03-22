@@ -1,0 +1,32 @@
+diff --git a/src/cmem/api/cmem.c b/src/cmem/api/cmem.c
+index 40f1814..081ea39 100644
+--- a/src/cmem/api/cmem.c
++++ b/src/cmem/api/cmem.c
+@@ -122,19 +122,22 @@ int CMEM_init(void)
+     if ((version & 0xffff0000) != (CMEM_VERSION & 0xffff0000)) {
+         __E("init: major version mismatch between interface and driver.\n");
+         __E("    needs driver version %#x, got %#x\n", CMEM_VERSION, version);
+-	CMEM_exit();
+-	return -1;
++	//CMEM_exit();
++	//return -1;
+     }
+     else if ((version & 0x0000ffff) < (CMEM_VERSION & 0x0000ffff)) {
+         __E("init: minor version mismatch between interface and driver.\n");
+         __E("    needs driver minor version %#x or greater.\n"
+ 	    "    got minor version %#x (full version %#x)\n",
+ 	    CMEM_VERSION & 0x0000ffff, version & 0x0000ffff, version);
+-	CMEM_exit();
+-	return -1;
++	//CMEM_exit();
++	//return -1;
+     }
++    else {
++        __D("init: ... match good (%#x)\n", version);
++    }
++
+ 
+-    __D("init: ... match good (%#x)\n", version);
+ 
+     flags = fcntl(cmem_fd, F_GETFD);
+     if (flags != -1) {

@@ -14,7 +14,7 @@ confflags=--prefix=/usr \
           KERNEL_INSTALL_DIR=/usr/src/rpmsg-rpc-4.1
 
 %:
-	dh $@ --with=systemd --with autoreconf
+	dh $@ --with autoreconf
 
 export EXTRA_LIB=-lpthread
 

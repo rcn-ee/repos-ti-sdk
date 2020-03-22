@@ -2,20 +2,30 @@
 
 set -e
 
-case "${1}" in
+# summary of how this script can be called:
+#        * <postinst> `configure' <most-recently-configured-version>
+#        * <old-postinst> `abort-upgrade' <new version>
+#        * <conflictor's-postinst> `abort-remove' `in-favour' <package>
+#          <new-version>
+#        * <deconfigured's-postinst> `abort-deconfigure' `in-favour'
+#          <failed-install-package> <version> `removing'
+#          <conflicting-package> <version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
+case "$1" in
   configure)
-   if dpkg --compare-versions "${2}" lt "0.8" && deb-systemd-helper --quiet is-enabled ti-ipc-dra7xx.service; then
-     deb-systemd-helper disable ti-ipc-dra7xx.service
-   fi
-   ;;
-
+    # Ask the bus to reload the config file
+    if [ -x "/etc/init.d/dbus" ]; then
+      invoke-rc.d dbus force-reload || true
+    fi
+  ;;
   abort-upgrade|abort-remove|abort-deconfigure)
-    ;;
-
+  ;;
   *)
-    echo "postinst called with unknown argument \`${1}'" >&2
+    echo "postinst called with unknown argument \`$1'" >&2
     exit 1
-    ;;
+  ;;
 esac
 
 #DEBHELPER#

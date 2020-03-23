@@ -2,7 +2,7 @@
 
 package_name="firmware-am57xx-opencl-monitor"
 debian_pkg_name="${package_name}"
-package_version="1.1.18.00-r0.0"
+package_version="1.1.18.00-r0.1"
 package_source=""
 src_dir=""
 

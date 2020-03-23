@@ -1,5 +1,5 @@
-ti-opencl (01.01.18.00-git20190323.0-0rcnee0~stretch+20200323) stretch; urgency=low
+ti-opencl (01.01.19.02-git20190930.0-0rcnee0~stretch+20200323) stretch; urgency=low
 
   * Rebuild for repos.rcn-ee.com
 
- -- Robert Nelson <robertcnelson@gmail.com>  Mon, 23 Mar 2020 11:01:54 -0500
+ -- Robert Nelson <robertcnelson@gmail.com>  Mon, 23 Mar 2020 15:54:30 -0500

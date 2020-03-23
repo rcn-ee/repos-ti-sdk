@@ -1,5 +1,5 @@
-firmware-am57xx-opencl-monitor (1.1.18.00-r0.1rcnee0~stretch+20200323) stretch; urgency=low
+firmware-am57xx-opencl-monitor (1.1.19.02-r0.0rcnee0~stretch+20200323) stretch; urgency=low
 
   * Rebuild for repos.rcn-ee.com
 
- -- Robert Nelson <robertcnelson@gmail.com>  Mon, 23 Mar 2020 14:38:06 -0500
+ -- Robert Nelson <robertcnelson@gmail.com>  Mon, 23 Mar 2020 15:25:01 -0500

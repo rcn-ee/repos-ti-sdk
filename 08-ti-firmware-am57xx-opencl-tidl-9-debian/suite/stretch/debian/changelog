@@ -1,5 +1,5 @@
-firmware-am57xx-opencl-tidl (01.01.18.00-r0rcnee0~stretch+20200323) stretch; urgency=low
+firmware-am57xx-opencl-tidl (01.01.19.02-r0rcnee0~stretch+20200323) stretch; urgency=low
 
   * Rebuild for repos.rcn-ee.com
 
- -- Robert Nelson <robertcnelson@gmail.com>  Mon, 23 Mar 2020 10:06:47 -0500
+ -- Robert Nelson <robertcnelson@gmail.com>  Mon, 23 Mar 2020 15:26:35 -0500

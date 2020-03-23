@@ -2,7 +2,7 @@
 
 package_name="firmware-am57xx-opencl-tidl"
 debian_pkg_name="${package_name}"
-package_version="01.01.18.00-r0"
+package_version="01.01.19.02-r0"
 package_source=""
 src_dir=""
 

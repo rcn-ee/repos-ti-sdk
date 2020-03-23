@@ -4,12 +4,12 @@
 
 package_name="ti-tidl"
 debian_pkg_name="${package_name}"
-package_version="01.03.00-bb.org-0.0"
+package_version="01.03.03-bb.org-0.0"
 package_source="${package_name}_${package_version}.orig.tar.xz"
 src_dir="${package_name}_${package_version}"
 
 git_repo="https://github.com/rcn-ee/tidl-api.git"
-git_sha="a01bde1a95f7ba820dc97ed949c729b9c1cf1f10"
+git_sha="5c67a2f237c9de1353359c4452abc01c810fa3f6"
 reprepro_dir="o/${package_name}"
 dl_path=""
 

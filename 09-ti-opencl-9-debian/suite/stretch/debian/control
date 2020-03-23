@@ -23,7 +23,7 @@ Build-Depends: debhelper (>= 9),
          firmware-am57xx-opencl-tidl,
          libelf-dev,
          libjson-c-dev,
-         ti-c6000-cgt-v8.2.x-installer,
+         ti-c6000-cgt-v8.3,
          git,
          ocl-icd-opencl-dev,
 Standards-Version: 3.9.6
@@ -36,7 +36,7 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          libtiopencl1 (= ${binary:Version}),
          mesa-common-dev,
-         ti-c6000-cgt-v8.2.x-installer
+         ti-c6000-cgt-v8.3
 Conflicts: opencl-headers
 Architecture: armhf
 Description: OpenCL for TI Keystone

@@ -2,7 +2,7 @@
 
 package_name="firmware-am57xx-opencl-monitor"
 debian_pkg_name="${package_name}"
-package_version="1.1.19.02-r0.0"
+package_version="1.2.00.02-r0.0"
 package_source=""
 src_dir=""
 
@@ -22,4 +22,4 @@ debian_dl_4="https://github.com/rcn-ee/sdk-firmware/raw/master/opencl-monitor/${
 debian_dl_5="https://github.com/rcn-ee/sdk-firmware/raw/master/opencl-monitor/${package_version}/files/dsp_syms.obj"
 debian_dl_6="https://github.com/rcn-ee/sdk-firmware/raw/master/opencl-monitor-ipu/${package_version}/files/dra7-ipu1-fw.xem4"
 
-stretch_version="~stretch+20200323"
+stretch_version="~stretch+20200324"

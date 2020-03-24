@@ -1,5 +1,5 @@
-ti-ipc-dra7xx (3.50.04.07-git20190830.0-0rcnee0~stretch+20200323) stretch; urgency=low
+ti-ipc-dra7xx (3.50.04.08-git20191028.0-0rcnee0~stretch+20200324) stretch; urgency=low
 
   * Rebuild for repos.rcn-ee.com
 
- -- Robert Nelson <robertcnelson@gmail.com>  Mon, 23 Mar 2020 15:14:24 -0500
+ -- Robert Nelson <robertcnelson@gmail.com>  Tue, 24 Mar 2020 08:30:17 -0500

@@ -1,3 +1,9 @@
+ti-tidl (01.04.00-bb.org-0.0-0rcnee1~stretch+20200324) stretch; urgency=low
+
+  * Rebuild for repos.rcn-ee.com
+
+ -- Robert Nelson <robertcnelson@gmail.com>  Tue, 24 Mar 2020 11:01:32 -0500
+
 ti-tidl (01.04.00-bb.org-0.0-0rcnee0~stretch+20200324) stretch; urgency=low
 
   * Rebuild for repos.rcn-ee.com

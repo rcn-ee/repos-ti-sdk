@@ -12,6 +12,7 @@ Build-Depends: debhelper (>= 9),
 	libjson-c-dev,
 	pybind11-dev,
 	libpython3.5-dev,
+	libloki-dev,
 Standards-Version: 3.9.8
 
 Package: ti-tidl

@@ -2,7 +2,7 @@
 
 package_name="firmware-am57xx-opencl-tidl"
 debian_pkg_name="${package_name}"
-package_version="01.01.19.02-r0"
+package_version="01.02.00.01-r0"
 package_source=""
 src_dir=""
 
@@ -18,4 +18,4 @@ debian_patch=""
 debian_dl_1="https://github.com/rcn-ee/sdk-firmware/raw/master/opencl-tidl-fw/${package_version}/files/eve_firmware.bin"
 debian_dl_2="https://github.com/rcn-ee/sdk-firmware/raw/master/opencl-tidl-fw/${package_version}/files/ocl_tidl_dsp.lib"
 
-stretch_version="~stretch+20200323"
+stretch_version="~stretch+20200324"
